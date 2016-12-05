@@ -11,6 +11,17 @@
     <name>langtools</name>
     <url>https://github.com/txazo/langtools</url>
 
+    <dependencies>
+        <!-- tools.jar -->
+        <dependency>
+            <groupId>tools</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>/Library/Java/JavaVirtualMachines/current.jdk/Contents/home/lib/tools.jar</systemPath>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
